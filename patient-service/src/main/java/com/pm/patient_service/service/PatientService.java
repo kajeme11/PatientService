@@ -24,4 +24,6 @@ public class PatientService {
         return patients.stream().map(PatientMapper::createPatientDTO).toList();
     }
 
+
+
 }
