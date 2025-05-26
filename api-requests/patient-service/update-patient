@@ -1,0 +1,13 @@
+### PUT request
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+    "name": "John Dowe",
+    "email": "JohnDowe@example.com",
+    "address": "123 main st",
+    "dateOfBirth": "1995-09-09"
+}
+
+###
